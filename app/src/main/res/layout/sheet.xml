@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtcameraclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/photocamera"
+        android:gravity="center"
+        android:text="Take photo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD" />
+
+    <TextView
+        android:id="@+id/txtgalleryclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/imagegallery"
+        android:gravity="center"
+        android:padding="25sp"
+        android:text="Choose from gallery"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD" />
+
+    <TextView
+        android:id="@+id/txtcancelclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25sp"
+        android:text="Cancel"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

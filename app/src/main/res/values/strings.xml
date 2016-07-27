@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MarketPlace</string>
+
+    <string name="nav_item_main">Home</string>
+    <string name="nav_item_Profile">Profile</string>
+    <string name="nav_item_Rateus">Rate us</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <!--<string name="banner_id">ca-app-pub-4390957762197405/4838817080</string>-->
+    <string name="banner_id">ca-app-pub-4390957762197405/2712622285</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_Profile</item>
+        <!--<item>@string/nav_item_piechart</item>-->
+        <!--<item>@string/nav_item_Profile</item>-->
+        <!--<item>@string/nav_item_Rateus</item>-->
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+
+</resources>

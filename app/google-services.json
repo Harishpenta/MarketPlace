@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "381857153692",
+    "project_id": "marketplace-1380"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381857153692:android:ce5cd46f11afdf7b",
+        "android_client_info": {
+          "package_name": "com.hashrail.marketplace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy2EfNRWmjUG_rfMJq3tlPjA1ezdgj1lQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

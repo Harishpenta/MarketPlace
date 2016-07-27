@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileMaking.UpdateProfile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbarProfileUpdate"
+            layout="@layout/toolbar" />
+
+        <!-- Capture picture button -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Hi, Harish penta"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Before we get started," />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="let's make sure you look good" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:id="@+id/imgPreview"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/userprofileimageedit"
+                app:siBorderColor="#fffafa" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabEditPic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imgPreview"
+                android:layout_alignEnd="@+id/imgPreview"
+                android:layout_alignRight="@+id/imgPreview"
+                android:layout_gravity="top"
+                android:src="@drawable/camera" />
+
+            <Button
+                android:id="@+id/btnDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgPreview"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Done"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:id="@+id/bottom_sheet"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#fff"
+         android:gravity="center"
+         android:orientation="vertical"
+         app:layout_behavior="@string/bottom_sheet_behavior">
+
+
+     </LinearLayout>-->
+
+</android.support.design.widget.CoordinatorLayout>
