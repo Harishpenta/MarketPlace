@@ -23,7 +23,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by **** Harish **** on 22-7-2016.
+ * Created by ****  {Harish Penta Android Developer}**** on 22-7-2016.
  */
 public class GCMNotificationIntentService extends IntentService {
 
