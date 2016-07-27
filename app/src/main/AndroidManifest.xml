@@ -28,7 +28,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".RecylcerViewList.ProductsActivity">
+        <activity android:name=".Notification.NotifyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,7 +41,7 @@
         <activity android:name=".ProfileMaking.FullscreeProfileActivity" />
         <activity android:name=".ViewPager.ImageSlidingActivity" />
         <activity android:name=".Filter.FilterActivity" />
-        <activity android:name=".Notification.NotifyActivity" />
+        <activity android:name=".RecylcerViewList.ProductsActivity" />
         <activity android:name=".Notification.NotiViewActivity" />
 
         <receiver

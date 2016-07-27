@@ -64,9 +64,9 @@ public class ProductsActivity extends AppCompatActivity {
         adapter5 = new ProductsAdapter(this, albumList);
         adapter6 = new ProductsAdapter(this, albumList);
 */
-        /*LinearLayoutManager layoutManager1
-                = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);*/
-        LinearLayoutManager  lLayout1 = new GridLayoutManager(ProductsActivity.this, 2);
+        LinearLayoutManager layoutManager1
+                = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        //LinearLayoutManager lLayout1 = new GridLayoutManager(ProductsActivity.this, 2);
        /* LinearLayoutManager layoutManager2
                 = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
 
@@ -83,7 +83,7 @@ public class ProductsActivity extends AppCompatActivity {
                 = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);*/
 
         //RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
-        recyclerView1.setLayoutManager(lLayout1);
+        recyclerView1.setLayoutManager(layoutManager1);
         recyclerView1.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
         recyclerView1.setItemAnimator(new DefaultItemAnimator());
         recyclerView1.setAdapter(adapter1);

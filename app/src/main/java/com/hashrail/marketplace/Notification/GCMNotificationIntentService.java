@@ -27,7 +27,7 @@ import java.net.URL;
  */
 public class GCMNotificationIntentService extends IntentService {
 
-    public static final int NOTIFICATION_ID = 1;
+    public static int NOTIFICATION_ID = 1;
     public static String TAG = "GCMNotificationIntentService";
     NotificationCompat.Builder builder;
     Bitmap Images;
@@ -75,7 +75,7 @@ public class GCMNotificationIntentService extends IntentService {
         try {
             JSONObject jsonObject = new JSONObject(msg);
             Images = getBitmapFromURL(jsonObject.getString("image"));
-            message = jsonObject.getString("msg");
+            message = jsonObject.getString("message");
             surl = jsonObject.getString("send_url");
         } catch (JSONException e) {
             e.printStackTrace();
@@ -107,5 +107,7 @@ public class GCMNotificationIntentService extends IntentService {
                 .setNumber(++numMessages);
         mBuilder.setContentIntent(contentIntent);
         mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
+        NOTIFICATION_ID = NOTIFICATION_ID + 1;
+
     }
 }
