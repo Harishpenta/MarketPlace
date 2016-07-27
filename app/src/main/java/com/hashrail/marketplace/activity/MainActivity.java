@@ -22,7 +22,6 @@ import com.hashrail.marketplace.RecylcerViewList.ProductsActivity;
 import com.hashrail.marketplace.fragments.FragmentDrawer;
 
 public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {
-    private static final int NUM_PAGES = 5;
     Toolbar toolbarMain;
     Button btnsetProfile;
     AnimationDrawable drawable;
